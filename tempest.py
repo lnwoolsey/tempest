@@ -113,9 +113,7 @@ def init():
     ellbase = 7.5e6 #cm, correlation length for turbulent eddies
     Sbase = 9.e4 #erg cm**-2 s**-1 G**-1
     global infile, filename
-    infile="zephyr_NG0714_bz.in"
-    #infile="zephyr_standard_bz.in"
-    #infile="zephyr_linker3_bz.in"
+    infile="example_input_profile.in"
     filename='T'
 
 def miranda(rm,nmods,nsteps,B,dBdr,T,dTdr,zTR):
